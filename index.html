@@ -3,10 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <head>
+      <link href="css\style.css" rel="stylesheet">
+    </head>
   </head>
   <body>
+    <p class="tr_border"><del class="tr_textCenter">Удаленный datetime текст тут</del></p>
+    <ins>Добавленные - тут</ins><br/>
+    <mark>Выделенный текст</mark><br/>
+    <p><a
+      title="power.fm 107.0" href="https://www.powerfm.ua/">
+        <img src="img\radio.png" style="width: 15%;"</a></p>
+    <a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень</a><br/>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <!== Пробуем картинку ==>
 
+    <picture>
+      <source media="(min-width: 650px)" srcset="img\im1.jpg">
+      <source media="(min-width: 465px)" srcset="img\im1.jpg">
+      <img src="img\im1.jpg" style="width: 650px; margin-left: auto;margin-right: auto;" alt="Продажа техники">
+    </picture>
+    <h1>Нормальный текст</h1>
+
+    <!== Пробуем список ==>
+
+    <select style="width: 150px;">
+      <option value="volvo">Volvo</option>
+      <option value="volkswagen">Volkswagen</option>
+      <option value="audi">Audi</option>
+      <option value="mercedes">Mercedes</option>
+    </select>
+
+    <!== Пробуем таблицу ==>
+
+    <br/>
+
+    <table class="table1" border="1">
+      <tr>
+        <td>Задача</td>
+        <td>Выполнено</td>
+      </tr>
+      <tr>
+        <td>Допилить аукцион</td>
+        <td>нет</td>
+      </tr>
+      <tr>
+        <td>Починить дома</td>
+        <td>да</td>
+      </tr>
+    </table>
+
+    <br/>
+    <br/>
+
+    <!== Спойлер ==>
+
+    <details><sum>Тут должен быть источник, но его нет</sum></details>
+
+    <!== Поле ввода ==>
+
+    <textarea rows="5" cols="30">Введи сюда какой нибудь текст...</textarea>
+
+    <cite><dt>Кошка</dt>
+      <dd>Шерстяное <mark>изделие <em>развлекательного</em> <b><i>характера</i></b></dd></cite><hr>
+      «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень <sup>1</sup></a>».</p><br/>
+<small>Terrano Test 31.05.2019</small>
   </body>
 </html>
